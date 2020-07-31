@@ -9,8 +9,8 @@
 <body>
     <div class="flex">
     <div class="hero-section">
-        <h1 class="hero-title"> Lorem ipsum dolor sit amet consectetur.</h1>
-        <p class="hero-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, fuga quaerat! A possimus doloremque reprehenderit eum facere, sunt quo consequatur tempora!</p>
+        <h1 class="hero-title"> Farm to Table ingredients and recipes</h1>
+        <p class="hero-p">Farm-to-tablei s a social movement which promotes serving local food through direct acquisition from the producer (which might be a winery, brewery, or other type of food producer.</p>
     </div>
     <div class="column">
     <div class="join-30">
@@ -18,10 +18,18 @@
     </div>
     <div class="sign-up-form-container">
         <form class="sign-up-form">
-        <input class="input-first-name" type="text" value="Austin">
-        <input class="input-last-name" type="text" placeholder="Last name">
-        <input class="input-email" type="email" placeholder="Email Address">
-        <input class="input-password" type="password" placeholder="Password">
+        <input class="input-first-name" id="firstName" type="text" value="Austin">
+        <div class="showErrorMessage"></div>
+        <div class="errorImage"></div>
+        <input class="input-last-name" id="last" type="text" placeholder="Last name">
+        <div class="lastNameErrorMesssage"></div>
+        <div class="errorImage"></div>
+        <input class="input-email"  id ="email"  placeholder="Email Address">
+        <div class="emailErrorMessage"></div>
+        <div class="errorImage"></div>
+        <input class="input-password" id="password" type="password" placeholder="Password">
+        <div class="passwordErrorMessage"></div>
+        <div class="errorImage"></div>
         <button> Start Free Trial</button>
        </form>
        <p class="terms">By signing up you are agreeing to our <span class="terms-services">Terms and services</span></p>

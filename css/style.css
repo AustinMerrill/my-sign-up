@@ -113,7 +113,16 @@ button {
     display: flex;
     flex-direction: column;
 }
-@media (min-width:720px){
+.showErrorMessage p , .emailErrorMessage p , .lastNameErrorMesssage p , .passwordErrorMessage p{
+    font-size: 11px;
+    color: rgba(227, 0, 41, 0.59);
+    margin-left: 120px;
+}
+.errorImage img {
+    width: 24px;
+    height: 24px;
+}
+@media (min-width:720px) {
     body {
         justify-content: center;
         height: 1024px;
@@ -133,8 +142,8 @@ button {
         font-size: 50px;
         margin-top: 432;
         margin-left: 161px;
-        margin-bottom: 26px;
-        width: 525px;
+        margin-bottom: 27px;
+        width: 537px;
         margin-right: 98px;
     }
     .hero-p {
@@ -158,5 +167,20 @@ button {
         width: 540px;
         margin-bottom:  233px;
     }
-
+    input {
+        width: 460px;
+        height: 56px;
+    }
+    button {
+        width: 460px;
+        height: 56px;
+    }
+    .showErrorMessage p , .emailErrorMessage p , .lastNameErrorMesssage p , .passwordErrorMessage p {
+        font-size: 11px;
+        margin-left: 335px;
+        margin-bottom: 6px;
+    }
+    .emailErrorMessage {
+        margin-left: 35px;
+    }
 }
