@@ -82,6 +82,7 @@ input{
     width: 279px;
     height: 56px;  
     border-radius: 7px; 
+    -webkit-appearance: none;
 }
 .input-first-name {
     margin-top: 16px;
