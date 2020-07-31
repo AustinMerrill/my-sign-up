@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
 * {
 box-sizing: border-box;
 margin: 0;
@@ -32,6 +32,7 @@ padding: 0 25px;
     height: 77px;
     color:#fff;
     margin-bottom: 34px;
+    font-family: 'Tinos', serif;
 }
 .monthly-price {
     justify-content: center;
@@ -42,7 +43,7 @@ padding: 0 25px;
 }
 .join-30 {
     background-color: rgba(19, 33, 83, 0.73);
-    width: 327px;
+    /* width: 327px; */
     height: 71px;
     border-radius: 25px;
     /* display: flex;
@@ -60,7 +61,8 @@ padding: 0 25px;
     background-color: #fff;
     padding: 0 24px;
     border-radius: 17px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 38px;
 }
 .sign-up-form {
@@ -174,6 +176,7 @@ button {
     button {
         width: 460px;
         height: 56px;
+       
     }
     .showErrorMessage p , .emailErrorMessage p , .lastNameErrorMesssage p , .passwordErrorMessage p {
         font-size: 11px;
@@ -182,5 +185,8 @@ button {
     }
     .emailErrorMessage {
         margin-left: 35px;
+    }
+    .passwordErrorMessage {
+        
     }
 }
