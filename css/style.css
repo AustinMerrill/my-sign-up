@@ -61,9 +61,9 @@ padding: 0 25px;
     background-color: #fff;
     padding: 0 24px;
     border-radius: 17px;
-    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    /* -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-    box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.1); ;
+    box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.1); */
     margin-bottom: 38px;
 }
 .sign-up-form {
@@ -76,6 +76,8 @@ padding: 0 25px;
 input{
     margin-bottom: 22px;
     border: none;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
     width: 279px;
     height: 56px;  
